@@ -20,7 +20,24 @@
       </ul>
     </nav>
   </header>
-  <!--La sección Contacto debe llevar un formulario que pida Nombre, Email y Comentarios (el email tiene que ser obligatorio).-->
+  <main>
+    <h2>Contacto</h2>
+    <form>
+      <div>
+        <label for="name">Introduce tu nombre</label>
+        <input type="text" name="name" id="name" placeholder="Nombre">
+      </div>
+      <div>
+        <label for="email">Introduce tu correo electrónico</label>
+        <input type="email" name="email" id="email" placeholder="Correo electrónico" required>
+      </div>
+      <div>
+        <label for="comment">¿En qué te podemos ayudar?</label>
+        <textarea name="comment" id="comment" cols="20" rows="5"></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
 </body>
 
 </html>
