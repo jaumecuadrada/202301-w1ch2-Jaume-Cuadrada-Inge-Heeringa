@@ -1,0 +1,23 @@
+{
+  "name": "202301-w1ch2-jaume-cuadrada-inge-heeringa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaumecuadrada/202301-w1ch2-Jaume-Cuadrada-Inge-Heeringa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaumecuadrada/202301-w1ch2-Jaume-Cuadrada-Inge-Heeringa/issues"
+  },
+  "homepage": "https://github.com/jaumecuadrada/202301-w1ch2-Jaume-Cuadrada-Inge-Heeringa#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
