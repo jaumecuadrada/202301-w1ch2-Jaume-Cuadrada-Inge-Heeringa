@@ -2,9 +2,11 @@
   "name": "202301-w1ch2-jaume-cuadrada-inge-heeringa",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prebuild": "rm -rf dist",
+    "prebuild:dev": "rm -rf dist",
+    "build:dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/jaumecuadrada/202301-w1ch2-Jaume-Cuadrada-Inge-Heeringa#readme",
   "devDependencies": {
-    "parcel": "^2.8.2"
+    "parcel": "^2.8.2",
+    "rimraf": "^3.0.2"
   }
 }
